@@ -1,5 +1,8 @@
 .App {
+  display: flex;
+  justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +38,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+}
+
+.color_container {
+  border-color: black;
+  align-items: center;
+  width: 500px; /* Adjust the width as needed */
+  height: 200px; /* Same as width to make it a square */
+  border-radius: 5px; /* Optional: Add border radius for rounded corners */
 }
