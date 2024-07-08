@@ -11,6 +11,7 @@ const Callback = (props) => {
 
   return (
     <section>
+      <label htmlFor="input">Type any color</label>
       <input
         type="text"
         id="input"
